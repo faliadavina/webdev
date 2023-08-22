@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mission 1 WebDev</title>
+    <style>
+        .grid-container {
+            display: grid;
+            grid-template-columns: repeat(6, 1fr); /* 6 kolom dengan lebar sama */
+            grid-template-rows: repeat(6, 90px); /* 6 baris dengan tinggi 100px masing-masing */
+        }
+
+        .grid-item {
+            border: 1px solid black;
+            padding: 20px;
+            color: black;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 25px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .item1 {
+            grid-column: span 2; /* Lebar 2 kolom */
+            grid-row: span 3; /* Tinggi 3 baris */
+            background-color: blue;
+        }
+
+        .item2 {
+            grid-column: span 4; 
+            grid-row: span 1;
+            background-color: black; 
+            color: white; 
+        }
+
+        .item3 {
+            grid-column: span 2; 
+            grid-row: span 2; 
+            background-color: burlywood; 
+            color: white;
+        }
+
+        .item4{
+            grid-column: span 1;
+            grid-row: span 3;
+            background-color: white;
+        }
+
+        .item5{
+            grid-column: span 1;
+            grid-row: span 1;
+            background-color: pink;
+        }
+
+        .item6{
+            grid-column: span 1;
+            grid-row: span 2;
+            background-color: #0070C0;
+        }
+
+        .item7{
+            grid-column: span 2;
+            grid-row: span 1;
+            background-color: yellow;
+        }
+
+        .item8{
+            grid-column: span 2;
+            grid-row: span 2;
+            background-color: purple; 
+            color: white;
+        }
+
+        .item9{
+            grid-column: span 2;
+            grid-row: span 1;
+            background-color: red; 
+            color: white;
+        }
+        
+        .item10{
+            grid-column: span 2;
+            grid-row: span 2;
+            background-color: grey;
+        }
+
+        .item11{
+            grid-column: span 2;
+            grid-row: span 1;
+            background-color: green;
+        }
+
+        .item12{
+            grid-column: span 2;
+            grid-row: span 1;
+            background-color: orange;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="grid-container">
+        <div class="grid-item item1">Biru Tua</div>
+        <div class="grid-item item2">Hitam</div>
+        <div class="grid-item item3">Coklat</div>
+        <div class="grid-item item4">Putih</div>
+        <div class="grid-item item5">Pink</div>
+        <div class="grid-item item6">Biru</div>
+        <div class="grid-item item7">Kuning</div>
+        <div class="grid-item item8">Ungu</div>
+        <div class="grid-item item9">Merah</div>
+        <div class="grid-item item10">Abu</div>
+        <div class="grid-item item11">Hijau</div>
+        <div class="grid-item item12">Orange</div>
+      </div>      
+</body>
+</html>
