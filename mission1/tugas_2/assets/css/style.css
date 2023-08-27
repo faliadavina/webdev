@@ -1,0 +1,149 @@
+.img{
+    padding: 7px;
+    width: 210px;
+    margin-left: 67px;
+}
+
+a{
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+.container1{
+    padding: 45px;
+}
+
+.text1{
+    font-family: Slate Serif Regular;
+    text-align: center;
+    opacity: 0.85;
+    font-size: 64px;
+    line-height: 115%;
+    letter-spacing: 1px;
+}
+
+.text2{
+    text-align: center;
+    opacity: 0.8;
+    font-size: 20.5px;
+    line-height: 150%;
+    color: #3E424B;
+}
+
+.container2{
+    padding: 5px;
+}
+
+/* ====================================================================== */
+.form-control {
+    height: 60px;
+    background: rgba(255, 255, 255, 0.6);
+    border-color: transparent;
+    border-radius: 10px 0 0 10px;
+    box-shadow: 1px 1px rgba(0, 0, 0, 0.2);
+}
+
+.form-control:focus {
+    box-shadow: none;
+    border-color: #243c4f;
+}
+
+.button {
+    min-height: 60px;
+    width: 120px;
+    /* border-radius: 0 20px 20px 0; */
+    background: #63d375;
+    border-radius: 0 5px 5px 0;
+    border: none;
+    color: white;
+    box-shadow: 1.5px rgba(0, 0, 0, 0.1);
+}
+
+.card1{
+    font-size: 17px;
+    line-height: 150%;
+    opacity: 0.5;
+    font-weight: 600;
+    margin-top: -10px;
+}
+
+.card2{
+    padding: 20px;
+    font-size: 50px;
+    font-family: serif;
+    text-align: center;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
+.text3{
+    margin-top: -28px;
+    font-size: 15px;
+    text-align: center;
+    color: red;
+    text-decoration: none;
+}
+
+.text3:hover{
+    text-decoration: underline;
+}
+
+.img2{
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+}
+
+.container3 {
+    padding: 10px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: repeat(4, 1fr);
+    max-width: 1400px;
+  }
+
+  .item {
+    display: flex;
+    /* border: 1px solid #ddd; */
+    padding: 10px;
+    font-size: 16px;
+  }
+
+  .item2{
+    /* margin-top: -5px; */
+    padding: 0 20px;
+  }
+
+  @media (max-width: 768px) {
+    .container3 {
+      grid-template-columns: 1fr;
+    }
+  }
+
+  .container4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: grey;
+    width: 50%;
+  }
+
+  .text4{
+    text-align: left;
+    padding: 30px 30px 0;
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 5px;
+  }
+
+  .text5{
+    text-align: left;
+    padding: 0 30px 0;
+    font-size: 17px;
+    opacity: 0.5;
+    margin-bottom: 5px;
+  }
