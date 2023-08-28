@@ -1,7 +1,7 @@
 .img{
     padding: 7px;
     width: 210px;
-    margin-left: 67px;
+    /* margin-left: 67px; */
 }
 
 a{
@@ -12,6 +12,27 @@ a:hover{
     text-decoration: underline;
 }
 
+
+@media (max-width: 826px){
+  .nav{
+      width: 100%;
+  }
+}
+
+#second-nav{
+  display: none;
+}
+
+@media (max-width: 636px) {
+  #main-nav{
+    display: none;
+  }
+
+  #second-nav{
+    display: block;
+  }
+}
+
 .container1{
     padding: 45px;
 }
@@ -20,17 +41,18 @@ a:hover{
     font-family: Slate Serif Regular;
     text-align: center;
     opacity: 0.85;
-    font-size: 64px;
+    font-size: 5vw;
     line-height: 115%;
-    letter-spacing: 1px;
+    letter-spacing: 1.5px;
 }
+
 
 .text2{
     text-align: center;
     opacity: 0.8;
-    font-size: 20.5px;
+    font-size: 20px;
     line-height: 150%;
-    color: #3E424B;
+    color: #778298
 }
 
 .container2{
