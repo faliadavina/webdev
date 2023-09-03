@@ -1,0 +1,39 @@
+body{
+    background-color: #0a1c20ff;
+}
+
+h1,h3{
+    text-align: center;
+    font-family: Comic Sans MS;
+    color: #E5BC7B;
+}
+
+#board{
+    width: 600px;
+    height: 300px;
+    margin: 20px auto;
+}
+
+#area{
+    width: 600px;
+    height: 300px;
+    position: absolute;
+    overflow: hidden;
+}
+
+#dino{
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    margin-top: 170px;
+    margin-left: 50px;
+    animation: lari 0.3s infinite;
+    transition: 1s;
+}
+
+#box{
+    width: 50px;
+    height: 50px;
+    margin-top: 215px;
+    margin-left: 650px;
+}
